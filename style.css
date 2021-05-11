@@ -1,0 +1,19 @@
+html, body {
+    height: 100%
+}
+button {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background: #ccc;
+    margin: 0 auto;
+    height:50%;
+    width: 50%;
+    top: 25%;
+    box-shadow: 0 20px #999;
+}
+button:active {
+    background: #999;
+    box-shadow: 0 10px #666;
+    transform: translateY(10px);
+}
